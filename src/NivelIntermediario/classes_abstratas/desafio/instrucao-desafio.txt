@@ -1,0 +1,3 @@
+o desafio vai ser criar um ninja padrao e extender dois ninjas dele
+
+criar metodos abstratos pela interface e a classe Ninja implementar esses metodos para suas classes filhas usarem

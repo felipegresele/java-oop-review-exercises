@@ -1,0 +1,20 @@
+
+COISAS EM COMUM
+
+A maior semelhança é que nenhuma das duas conseguem criar objetos - logo não podem ser instaciadas
+
+os metodos sao abstratos e não pode receber corpo e devem ser rescrito nas classes filhas que extenderem
+
+DIFERENÇAS
+
+Classe abstrata
+
+permite criar metodos abstratos ou não
+
+permite criar atributos publicos que podem receber dados em outras classes
+
+Interface
+
+todos os metodos criados são abstratos
+
+todos os atributos são final logo devem ser definidos direto na interface e não podem sofrer mudança

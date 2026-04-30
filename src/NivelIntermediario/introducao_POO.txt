@@ -1,0 +1,13 @@
+3 pilares da POO
+
+1 - Herança
+
+Usar caracteristicas de uma classe mae em outras classes filhas para assim poupar codigo e agilizar trabalho
+
+2 - Polimorfismo
+
+Criar uma função única que pode ser utilizada em diferentes classes com diferentes características
+
+3 - Encapsulamento
+
+Capacidade de proteger variaveis e classes para que nao aja vazamentos de dados e mantendo o codigo seguro e protegido
