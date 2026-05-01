@@ -15,6 +15,11 @@ public class Main {
         ninjaDeAgua2.saudacoesAtualizada();
         //Ambos construtores ficam disponível para escolha
 
+        //Metódo com sobrecarga
+        ninjaDeAgua2.mostrarInteligencia(160);
+        //Metódo normal
+        ninjaDeAgua2.mostrarInteligencia();
+
     }
 
 }

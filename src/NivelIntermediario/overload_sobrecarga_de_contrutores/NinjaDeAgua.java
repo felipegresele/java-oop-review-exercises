@@ -1,6 +1,6 @@
 package NivelIntermediario.overload_sobrecarga_de_contrutores;
 
-public class NinjaDeAgua extends Ninja{
+public class NinjaDeAgua extends Ninja implements InteligenciaInterface{
 
     public NinjaDeAgua() {
         super();
@@ -32,6 +32,21 @@ public class NinjaDeAgua extends Ninja{
                 + "sou da aldeia " + this.aldeia
                 + ", completei " + this.quantidadeDeMissoesConcluidas + " missões"
                 + " e meu rank é " + this.rank + ".");
+    }
+
+    @Override
+    public void mostrarInteligencia() {
+        System.out.println("Eu sou " + nome + " minha inteligencia é SUPREMA");
+    }
+
+    @Override
+    public void mostrarInteligencia(int qi) {
+        if (qi >= 150) {
+            System.out.println("Parabens voce é um GENIO");
+        } else {
+            System.out.println("Precisa treinar mais para evoluir");
+        }
+
     }
 
 }
