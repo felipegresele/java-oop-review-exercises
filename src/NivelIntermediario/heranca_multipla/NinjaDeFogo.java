@@ -1,6 +1,7 @@
 package NivelIntermediario.heranca_multipla;
 
-//Herança ultipla extender de uma super classe e tambem implemetar uma ou mais interface na mesma classe
+//Herança multípla é extender de uma super classe e também implemetar uma ou mais interfaces na mesma classe
+//Contato que aceite os termos da interface pode usar infinitas classes em uma única classe
 public class NinjaDeFogo extends Ninja implements PoderFogoIntereface, PoderCortinaFumacaInterface{
 
     public NinjaDeFogo() {
