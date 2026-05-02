@@ -20,4 +20,10 @@ public abstract class Ninja {
         System.out.println("O seu poder é de ninja, todo ninja é furtivo");
     }
 
+    @Override
+    public String toString() {
+        return "Meu nome é " + nome + ", idade "
+                + idade + " anos e sou da Aldeia: " + aldeia;
+    }
+
 }

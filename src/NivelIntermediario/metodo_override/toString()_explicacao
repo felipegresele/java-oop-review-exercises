@@ -1,0 +1,8 @@
+O método toString() já existe na classe base Object, que é herdada por todas
+as classes em Java. Ele é usado para retornar uma representação em texto do objeto.
+Ao sobrescrever esse método com @Override, podemos definir como queremos que o objeto
+seja exibido quando ele for impresso, como em um System.out.println().
+Esse método não tem relação com acesso à memória ou atributos diretamente,
+sendo apenas uma forma de representação textual do objeto.
+
+É indicado todas as classes terem o metódo toString() sobrescrevido para melhor demonstração dos dados
