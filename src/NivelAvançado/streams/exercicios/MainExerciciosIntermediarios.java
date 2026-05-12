@@ -31,7 +31,6 @@ public class MainExerciciosIntermediarios {
         Map<String, List<Usuarios>> listaPorCidade = usuarios.stream().collect(Collectors.groupingBy(Usuarios::getCidade));
         System.out.println("Organizados por Cidade: " + listaPorCidade);
 
-
     }
 
 }
